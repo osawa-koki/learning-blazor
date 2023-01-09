@@ -12,3 +12,9 @@ cd LearningBlazor
 # デバグ実行
 dotnet watch
 ```
+
+Dockerを使うと、、、  
+
+```shell
+docker build -t learning-blazor . && docker run -p 8080:8080 -it --rm --name my-learning-blazor learning-blazor
+```
